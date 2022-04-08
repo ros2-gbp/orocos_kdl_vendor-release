@@ -2,6 +2,9 @@
 Changelog for package orocos_kdl_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2022-04-08)
+------------------
+
 0.2.1 (2022-04-05)
 ------------------
 * Add buildtool_depend on git (`#4 <https://github.com/ros2/orocos_kdl_vendor/issues/4>`_)

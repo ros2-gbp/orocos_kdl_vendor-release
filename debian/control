@@ -1,0 +1,13 @@
+Source: ros-humble-python-orocos-kdl-vendor
+Section: misc
+Priority: optional
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pykdl, ros-humble-ament-cmake, ros-humble-ament-cmake-python, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-orocos-kdl-vendor, ros-humble-pybind11-vendor, ros-humble-python-cmake-module, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-python-orocos-kdl-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pykdl, ros-humble-orocos-kdl-vendor, ros-humble-pybind11-vendor, ros-humble-ros-workspace
+Description: Wrapper around PyKDL, providing nothing but a dependency on PyKDL on some systems.
+ On others, it fetches and builds python_orocos_kdl locally.

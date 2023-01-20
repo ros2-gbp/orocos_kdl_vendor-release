@@ -1,3 +1,28 @@
+## orocos_kdl_vendor (humble) - 0.2.5-1
+
+The packages in the `orocos_kdl_vendor` repository were released into the `humble` distro by running `/usr/local/bin/bloom-release -r humble -y orocos_kdl_vendor` on `Fri, 20 Jan 2023 20:11:10 -0000`
+
+These packages were released:
+- `orocos_kdl_vendor`
+- `python_orocos_kdl_vendor`
+
+Version of package(s) in repository `orocos_kdl_vendor`:
+
+- upstream repository: https://github.com/ros2/orocos_kdl_vendor.git
+- release repository: https://github.com/ros2-gbp/orocos_kdl_vendor-release.git
+- rosdistro version: `0.2.4-1`
+- old version: `0.2.4-1`
+- new version: `0.2.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## orocos_kdl_vendor (rolling) - 0.3.4-1
 
 The packages in the `orocos_kdl_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling orocos_kdl_vendor` on `Tue, 13 Sep 2022 20:43:19 -0000`

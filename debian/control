@@ -1,0 +1,13 @@
+Source: ros-iron-python-orocos-kdl-vendor
+Section: misc
+Priority: optional
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pykdl, ros-iron-ament-cmake, ros-iron-ament-cmake-python, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-orocos-kdl-vendor, ros-iron-pybind11-vendor, ros-iron-python-cmake-module, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-python-orocos-kdl-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pykdl, ros-iron-orocos-kdl-vendor, ros-iron-pybind11-vendor, ros-iron-ros-workspace
+Description: Wrapper around PyKDL, providing nothing but a dependency on PyKDL on some systems.
+ On others, it fetches and builds python_orocos_kdl locally.

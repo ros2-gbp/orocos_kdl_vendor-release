@@ -1,0 +1,13 @@
+Source: ros-iron-orocos-kdl-vendor
+Section: misc
+Priority: optional
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), git, libeigen3-dev, liborocos-kdl-dev, ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-eigen3-cmake-module, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-orocos-kdl-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, liborocos-kdl-dev, ros-iron-eigen3-cmake-module, ros-iron-ros-workspace
+Description: Wrapper around orocos_kdl, providing nothing but a dependency on orocos_kdl on some systems.
+ On others, it fetches and builds orocos_kdl locally.

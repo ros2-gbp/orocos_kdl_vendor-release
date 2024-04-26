@@ -2,6 +2,9 @@
 Changelog for package orocos_kdl_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.0 (2024-04-26)
+------------------
+
 0.5.0 (2024-01-24)
 ------------------
 * Update to the latest orocos_kdl_kinematics commit. (`#25 <https://github.com/ros2/orocos_kdl_vendor/issues/25>`_)

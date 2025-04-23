@@ -1,1 +1,1 @@
-{"base": "cac0181", "parent": "debian/rolling/python_orocos_kdl_vendor", "previous": "8cf4959", "trim": "", "trimbase": ""}
+{"base": "66e9f570b9ba", "parent": "debian/kilted/python_orocos_kdl_vendor", "previous": "e919d4768c22", "trim": "", "trimbase": ""}

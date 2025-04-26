@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.20)
 project(orocos_kdl_vendor)
 
 find_package(ament_cmake REQUIRED)
@@ -23,6 +23,7 @@ ament_vendor(orocos_kdl_vendor
     -DCMAKE_CXX_STANDARD=${CMAKE_CXX_STANDARD}
     -DENABLE_TESTS:BOOL=OFF
     -DENABLE_EXAMPLES:BOOL=OFF
+    -DCMAKE_POLICY_VERSION_MINIMUM=3.5
   PATCHES patches
 )
 

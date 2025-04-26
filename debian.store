@@ -1,1 +1,1 @@
-{"base": "0f93310", "parent": "debian/rolling/orocos_kdl_vendor", "previous": "a93dbb6", "trim": "", "trimbase": ""}
+{"base": "f306ea45bd8a", "parent": "debian/rolling/orocos_kdl_vendor", "previous": "0ccca61c2359", "trim": "", "trimbase": ""}

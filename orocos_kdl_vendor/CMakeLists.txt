@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.10)
 project(orocos_kdl_vendor)
 
 find_package(ament_cmake REQUIRED)
@@ -8,8 +8,8 @@ find_package(ament_cmake_vendor_package REQUIRED)
 find_package(orocos_kdl 1.5.1 QUIET)
 
 if(NOT CMAKE_CXX_STANDARD)
-  # orocos_kdl uses some deprecated APIs in C++17, so we set this to C++11
-  set(CMAKE_CXX_STANDARD 11)
+  # orocos_kdl uses some deprecated APIs in C++17, so we set this to C++17
+  set(CMAKE_CXX_STANDARD 17)
   set(CMAKE_CXX_STANDARD_REQUIRED ON)
 endif()
 
@@ -20,10 +20,8 @@ ament_vendor(orocos_kdl_vendor
   SOURCE_SUBDIR orocos_kdl
   GLOBAL_HOOK
   CMAKE_ARGS
-    -DCMAKE_CXX_STANDARD=${CMAKE_CXX_STANDARD}
     -DENABLE_TESTS:BOOL=OFF
     -DENABLE_EXAMPLES:BOOL=OFF
-    -DCMAKE_POLICY_VERSION_MINIMUM=3.5
   PATCHES patches
 )
 
